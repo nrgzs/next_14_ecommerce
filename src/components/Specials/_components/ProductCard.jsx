@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import StarSvg from './../../../../public/icons/star.svg';
+import StarSvg from './../../../../public/icons/Star.svg';
 import CommentSvg from './../../../../public/icons/Chat.svg';
 import HeartSvg from './../../../../public/icons/Heart.svg';
 import Buy2Svg from './../../../../public/icons/Buy2.svg';
