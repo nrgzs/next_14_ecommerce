@@ -2,32 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ @font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/SFPRODISPLAYMEDIUM.OTF') format('truetype');
 }
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 100;
+  src: url('/fonts/SFPRODISPLAYTHINITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/fonts/SFPRODISPLAYLIGHTITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/SFPRODISPLAYITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/SFPRODISPLAYBOLDITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/fonts/SFPRODISPLAYHEAVYITALIC.OTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'SFPRODISPLAY';
+  font-style: italic;
+  font-weight: 950;
+  src: url('/fonts/SFPRODISPLAYBLACKITALIC.OTF') format('truetype');
+} 
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  font-family: 'SFPRODISPLAY', sans-serif;
+  
 }
