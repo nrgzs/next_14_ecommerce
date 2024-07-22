@@ -26,7 +26,7 @@ export default function SpecialProducts({ data }) {
             Hamisi
           </button>
           {data &&
-            data?.map((item) => {
+            data.slice(1).map((item) => {
               return (
                 <button key={item.title}
                   onClick={() => handleFilter(item.title)}
