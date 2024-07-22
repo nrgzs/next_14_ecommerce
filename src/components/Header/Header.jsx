@@ -4,7 +4,7 @@ import Logo from '../../../public/images/logo.png';
 import Search from './_components/Search';
 import LocationBar from './_components/Location';
 import Options from './_components/Options';
-import CatSvg from '../../../public/icons/category.svg';
+import CatSvg from '../../../public/icons/Category.svg';
 
 export default function Header() {
   return (
